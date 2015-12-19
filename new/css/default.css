@@ -1,0 +1,178 @@
+@charset "utf-8";
+
+/*
+ * Nanum Gothic (Korean) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot);
+    src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+    url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot);
+    src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+    url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 800;
+    src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot);
+    src: url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+    url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+html {
+    overflow-y: scroll
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 0.75em;
+    font-family: Nanum Gothic
+}
+
+img{
+    vertical-align:top;
+    border: 0px;
+}
+
+legend {
+    position:absolute;
+    overflow:hidden;
+    width:1px;
+    height:1px;
+    top:auto;
+    text-indent:-9999%;
+    font-size:0;
+    line-height:0;
+}
+
+label, select, input, textarea {
+    vertical-align:middle;
+}
+
+a {
+    text-decoration:none; color:#3c3c3c;
+}
+
+footer {
+    color: #FFF;
+}
+
+footer a:link, a:visited, a:hover, a:focus, a:active {
+    color: #fff;
+}
+
+.main{
+    border:0px solid black;
+    width:950px;
+    margin-right:auto;
+    margin-left:auto;
+    position:relative;
+}
+
+.sub_title {
+    border: 0px solid black;
+    width: 950px;
+    min-height: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('../img/subtitle.png');
+    background-repeat: no-repeat;
+}
+
+.sub_title .title{
+    margin-top: 18px;
+    margin-left: 23px;
+    font-size: 34px;
+    color: #fff;
+    font-weight: bold;
+    float:left;
+}
+
+.sub_title .desc{
+    float:left;
+    margin-top: 32px;
+    margin-left: 130px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #888;
+    background-color: #fff;
+}
+
+.car_table {
+    width: 100%;
+}
+
+.car_image {
+    width: 17%;
+    height: 150px;
+}
+
+.car_image img {
+    width: 100%;
+    height: auto;
+}
+
+.car_title {
+    color: #183163;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.car_price_title {
+    font-size: 16px;
+}
+
+.car_price_number {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+}
+
+.centerImage {
+    display: table-cell;
+    vertical-align: middle;
+    border:0px solid black;
+    width:950px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.centerImage img {
+    margin: 0 auto;
+    display: block;
+}
+
+.caution_detail_title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#444;
+}
+
+.caution_detail_desc{
+    width: 420px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#888;
+}
