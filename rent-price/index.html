@@ -1,0 +1,19 @@
+---
+layout: pages
+main_menu: rent_price
+sub_menu: rent_price
+---
+
+<div style="overflow: hidden;">
+    {% for car in site.data.cars %}
+        {% assign car_d = car[1] %}
+            <div style="width:250px; height:190px; margin:10px; padding:5px; border: 3px solid #666; float: left;" >
+                <a href="/rent-price/{{ car_d.uri }}.html">
+                    <img style="background-color: white;" src="/assets/img/{{ car_d.image.cover }}">
+                </a>
+                <div style="text-align: center; padding: 10px;">
+                    <a href="/rent-price/{{ car_d.uri }}.html">{{ car_d.name }}</a>
+                </div>
+            </div>        
+    {% endfor %}
+</div>

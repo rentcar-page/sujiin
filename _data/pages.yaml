@@ -1,0 +1,37 @@
+header_sliders: [slider_01.png, slider_02.png, slider_03.png]
+
+menus:
+  company:
+      title: 회사 소개
+      url: company
+      sub_menus: 
+          company:
+              url: company
+              name: 인사말
+          map:
+              url: map
+              name: 찾아오시는 길
+  rent_guide:
+      title: 대여 가이드
+      url: rent-guide
+      sub_menus: 
+          rent_guide:
+              url: rent-guide
+              name: 대여 조건/절차
+          rent_clause:
+              url: rent-clause
+              name: 자동차 대여 약관
+  rent_price:
+      title: 대여 요금 안내
+      url: rent-price
+      sub_menus: 
+          rent_price:
+              url: rent-price
+              name: 대여 요금 안내
+  long_term_rent_guide:
+      title: 장기 대여 안내
+      url: long-term-rent-guide
+      sub_menus: 
+          long_term_rent_guide:
+              url: long-term-rent-guide
+              name: 장기 대여 안내

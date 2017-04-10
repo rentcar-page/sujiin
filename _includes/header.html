@@ -1,0 +1,15 @@
+<nav class="main-nav">
+  <div class="container">
+    <a class="nav nav-brand" href="/">
+      <img src="/assets/img/logo.png">
+    </a>
+    
+    <ul class="nav nav-menu">
+      {% for menu in site.data.pages.menus %}
+        <li><a href="/{{ menu[1].url }}">{{ menu[1].title }}</a></li>
+      {% endfor%}
+    </ul>
+
+    <div class="nav nav-phone">대표번호: <span style="font-size:42px;">1800-8068</span></div>
+  </div>
+</nav>

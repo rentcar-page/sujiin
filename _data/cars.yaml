@@ -1,0 +1,368 @@
+morning:
+    uri: morning
+    name: 신형 모닝 1.0
+    type: small
+    fuel_type: gasoline
+    image: 
+        cover: car/morning.png
+    price:
+        hours_6: 40,000
+        hours_12: 45,000
+        days_1: 50,000
+        days_1_weekend: 65,000
+        days_3: 45,000
+        days_5: 40,000
+        days_7: 35,000
+        per_hour: 5,000
+ray:
+    uri: ray
+    name: 신형 레이 1.0
+    type: small
+    fuel_type: gasoline
+    image: 
+        cover: car/ray.png
+    price:
+        hours_6: 45,000
+        hours_12: 50,000
+        days_1: 55,000
+        days_1_weekend: 65,000
+        days_3: 50,000
+        days_5: 45,000
+        days_7: 50,000
+        per_hour: 5,000
+avante_md:
+    uri: avante-md
+    name: 아반테 MD
+    type: small
+    fuel_type: lpg
+    image: 
+        cover: car/avante_md.png
+    price:
+        hours_6: 50,000
+        hours_12: 55,000
+        days_1: 65,000
+        days_1_weekend: 70,000
+        days_3: 55,000
+        days_5: 50,000
+        days_7: 45,000
+        per_hour: 5,000
+avante_ad:
+    uri: avante-ad
+    name: 신형 아반테 AD
+    type: small
+    fuel_type: lpg
+    image: 
+        cover: car/avante_ad.png
+    price:
+        hours_6: 50,000
+        hours_12: 55,000
+        days_1: 60,000
+        days_1_weekend: 70,000
+        days_3: 55,000
+        days_5: 50,000
+        days_7: 45,000
+        per_hour: 5,000
+k3:
+    uri: k3
+    name: 신형 K3
+    type: small
+    fuel_type: gasoline
+    image: 
+        cover: car/new_k3.png
+    price:
+        hours_6: 50,000
+        hours_12: 55,000
+        days_1: 60,000
+        days_1_weekend: 70,000
+        days_3: 55,000
+        days_5: 50,000
+        days_7: 45,000
+        per_hour: 5,000
+
+lf_sonata:
+    uri: lf-sonata
+    name: LF 소나타
+    type: middle
+    fuel_type: lpg
+    image: 
+        cover: car/lf_sonata.png
+    price:
+        hours_6: 70,000
+        hours_12: 75,000
+        days_1: 80,000
+        days_1_weekend: 90,000
+        days_3: 75,000
+        days_5: 70,000
+        days_7: 65,000
+        per_hour: 7,000
+yf_sonata:
+    uri: yf-sonata
+    name: YF 소나타
+    type: middle
+    fuel_type: lpg
+    image: 
+        cover: car/yf_sonata.png
+    price:
+        hours_6: 60,000
+        hours_12: 65,000
+        days_1: 70,000
+        days_1_weekend: 80,000
+        days_3: 65,000
+        days_5: 60,000
+        days_7: 55,000
+        per_hour: 7,000
+k5:
+    uri: k5
+    name: K5
+    type: middle
+    fuel_type: lpg
+    image: 
+        cover: car/k5.png
+    price:
+        hours_6: 60,000
+        hours_12: 65,000
+        days_1: 70,000
+        days_1_weekend: 80,000
+        days_3: 65,000
+        days_5: 60,000
+        days_7: 55,000
+        per_hour: 7,000
+new_k5:
+    uri: new-k5
+    name: 올뉴 K5
+    type: middle
+    fuel_type: lpg
+    image: 
+        cover: car/new_k5.png
+    price:
+        hours_6: 60,000
+        hours_12: 65,000
+        days_1: 80,000
+        days_1_weekend: 90,000
+        days_3: 65,000
+        days_5: 60,000
+        days_7: 55,000
+        per_hour: 7,000
+sm5:
+    uri: sm5
+    name: SM5
+    type: middle
+    image: 
+        cover: car/sm5.png
+    price:
+        hours_6: 60,000
+        hours_12: 65,000
+        days_1: 70,000
+        days_1_weekend: 70,000
+        days_3: 65,000
+        days_5: 60,000
+        days_7: 55,000
+        per_hour: 7,000
+
+k7:
+    uri: k7
+    name: K7
+    type: luxury
+    image: 
+        cover: car/k7.png
+    price:
+        hours_6: 90,000
+        hours_12: 95,000
+        days_1: 100,000
+        days_1_weekend: 100,000
+        days_3: 90,000
+        days_5: 80,000
+        days_7: 70,000
+        per_hour: 10,000
+new_grandeur_hg:
+    uri: new-grandeur-hg
+    name: 그랜져 HG
+    type: luxury
+    image: 
+        cover: car/grandure_hg.png
+    price:
+        hours_6: 95,000
+        hours_12: 100,000
+        days_1: 105,000
+        days_1_weekend: 120,000
+        days_3: 100,000
+        days_5: 90,000
+        days_7: 80,000
+        per_hour: 10,000
+sm7:
+    uri: sm7
+    name: SM7
+    type: luxury
+    image: 
+        cover: car/sm7.png
+    price:
+        hours_6: 95,000
+        hours_12: 100,000
+        days_1: 105,000
+        days_1_weekend: 105,000
+        days_3: 100,000
+        days_5: 90,000
+        days_7: 80,000
+        per_hour: 10,000
+new_genesis:
+    uri: new-genesis
+    name: 제네시스 신형
+    type: luxury
+    fuel_type: gasoline
+    image: 
+        cover: car/genesis.png
+    price:
+        hours_6: 180,000
+        hours_12: 200,000
+        days_1: 200,000
+        days_1_weekend: 220,000
+        days_3: 200,000
+        days_5: 220,000
+        days_7: 170,000
+        per_hour: 20,000
+k9:
+    uri: k9
+    name: K9
+    type: luxury
+    image: 
+        cover: car/k9.png
+    price:
+        hours_6: 180,000
+        hours_12: 200,000
+        days_1: 220,000
+        days_1_weekend: 220,000
+        days_3: 200,000
+        days_5: 180,000
+        days_7: 170,000
+        per_hour: 20,000
+chairmain:
+    uri: chairmain
+    name: 체어맨
+    type: luxury
+    image: 
+        cover: car/chairman.png
+    price:
+        hours_6: 240,000
+        hours_12: 260,000
+        days_1: 280,000
+        days_1_weekend: 280,000
+        days_3: 260,000
+        days_5: 240,000
+        days_7: 230,000
+        per_hour: 30,000
+equus:
+    uri: equus
+    name: 에쿠스
+    type: luxury
+    image: 
+        cover: car/equus.png
+    price:
+        hours_6: 260,000
+        hours_12: 280,000
+        days_1: 300,000
+        days_3: 280,000
+        days_5: 260,000
+        days_7: 250,000
+        per_hour: 30,000
+
+new_grand_starex:
+    uri: new-grand-starex
+    name: 그랜드 스타렉스 신형
+    type: van
+    fuel_type: diesel
+    image: 
+        cover: car/grand_starex.png
+    price:
+        hours_6: 100,000
+        hours_12: 100,000
+        days_1: 100,000
+        days_1_weekend: 120,000
+        days_3: 95,000
+        days_5: 90,000
+        days_7: 90,000
+        per_hour: 10,000
+carnival:
+    uri: carnival
+    name: 카니발 9인승&11인승
+    type: van
+    image: 
+        cover: car/carnival.png
+    price:
+        hours_6: 120,000
+        hours_12: 120,000
+        days_1: 120,000
+        days_1_weekend: 130,000
+        days_3: 110,000
+        days_5: 110,000
+        days_7: 100,000
+        per_hour: 10,000
+all_new_carnival:
+    uri: all-new-carnival
+    name: 올뉴카니발 신형
+    type: van
+    fuel_type: diesel
+    image: 
+        cover: car/allnew_carnival.png
+    price:
+        hours_6: 130,000
+        hours_12: 130,000
+        days_1: 130,000
+        days_1_weekend: 150,000
+        days_3: 120,000
+        days_5: 120,000
+        days_7: 110,000
+        per_hour: 15,000
+county:
+    uri: county
+    name: 카운티(15인승)
+    type: van
+    image: 
+        cover: car/county.png
+    price:
+        days_1: 300,000
+        days_1_weekend: 300,000
+        days_3: 280,000
+        days_5: 280,000
+        days_7: 260,000
+        per_hour: 35,000
+
+benz_e250:
+    uri: benz-e250
+    name: 벤츠 E250 4Matic
+    type: luxury
+    image: 
+        cover: car/e250_4matic.png
+    price:
+        days_1: 300,000
+benz_e300:
+    uri: benz-e300
+    name: 벤츠 E300
+    type: luxury
+    image: 
+        cover: car/e300.png
+    price:
+        days_1: 350,000
+benz_e350:
+    uri: benz-e350
+    name: 벤츠 E350L 4Matic
+    type: luxury
+    image: 
+        cover: car/s350_4matic.png
+    price:
+        days_1: 400,000
+audi_a7:
+    uri: audi-a7
+    name: 아우디 A7 콰트로
+    type: luxury
+    image: 
+        cover: car/a7.png
+    price:
+        days_1: 400,000
+porsche_cayenne:
+    uri: porsche-cayenne
+    name: 포르쉐 카이엔
+    type: luxury
+    image: 
+        cover: car/cayenne.png
+    price:
+        days_1: 400,000
