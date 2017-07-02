@@ -79,6 +79,21 @@ k3:
         days_7: 45,000
         per_hour: 5,000
 
+sonata_new_rise:
+    uri: sonata-new-rise
+    name: 소나타 뉴 라이즈
+    type: middle
+    image: 
+        cover: car/sonata_new_rise.png
+    price:
+        hours_6: 70,000
+        hours_12: 75,000
+        days_1: 80,000
+        days_1_weekend: 90,000
+        days_3: 75,000
+        days_5: 70,000
+        days_7: 65,000
+        per_hour: 7,000
 lf_sonata:
     uri: lf-sonata
     name: LF 소나타
@@ -107,21 +122,6 @@ yf_sonata:
         hours_12: 65,000
         days_1: 70,000
         days_1_weekend: 80,000
-        days_3: 65,000
-        days_5: 60,000
-        days_7: 55,000
-        per_hour: 7,000
-sonata_new_rise:
-    uri: sonata-new-rise
-    name: 소나타 뉴 라이즈
-    type: middle
-    image: 
-        cover: car/sonata_new_rise.png
-    price:
-        hours_6: 60,000
-        hours_12: 65,000
-        days_1: 80,000
-        days_1_weekend: 90,000
         days_3: 65,000
         days_5: 60,000
         days_7: 55,000
