@@ -11,9 +11,9 @@
 			<li>
 				<button href="tel:010-5055-3109" class="list-group-item">
 					<span class="name"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;&nbsp;상담 및 문의</span>
-					<a href="tel:1800-8068"><div class="tel text-center">1800-8068</div></a>
-					<a href="tel:070-4134-3106"><div class="tel text-center">070-4134-3106</div></a>
-					<a href="tel:010-5055-3109"><div class="tel text-center">010-5055-3109</div></a>
+					{% for number in site.data.pages.tel.numbers %}
+						<a href="tel:{{ number }}"><div class="tel text-center">{{ number }}</div></a>
+					{% endfor%}
 				</button>
 			</li>
 		</ul>
@@ -52,4 +52,3 @@
 </nav>
 
 <div class="navbar-fixed-top hidden-print hidden-lg menu-glow"></div>
-</div>

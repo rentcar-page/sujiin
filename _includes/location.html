@@ -1,0 +1,56 @@
+<a class="anchor" name="location" id="location"></a>
+
+<div class="row">
+	<div class="col-md-12" style="height: 3px; background-color: black;"></div>
+
+	<div class="col-md-12" style="background-color: #eeeeee; padding-bottom:10px;">
+		<div class="row">
+			<div class="col-md-offset-1 col-md-3 col-sm-12">
+				<h2>오시는길</h2>
+			</div>
+
+			<div class="col-md-8 col-sm-12 ">
+				<h2><small><div><ul><li>경기도 성남시 수정구 복정로 128</li><li>경기도 광주시 태봉로 79</li><li>경기도 성남시 분당구 서현역</li><li>서울시 송파구 문정동 충민로 66 YB1047 (문정동, 가든파이브라이프)</li><li>서울시 중랑구 망우로 449</li><li>서울시 송파구 송파대로 400</li></ul></div></small></h2>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-12" style="height: 1px; background-color: #ccc;"></div>
+</div>
+
+<div class="contents">
+	<div class="row">
+		<div class="col-md-12">
+			<div id="map" style="width:100%;height:500px;"></div>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId={{ site.data.pages.naver_client_id }}"></script>
+<script>
+	var mapOptions = {
+		center: new naver.maps.LatLng(37.4921935, 127.0831961),
+		zoom: 6,
+	};
+
+	var map = new naver.maps.Map('map', mapOptions);
+
+	setMarker(map, 37.477843, 127.124942);
+	//    경기도 성남시 수정구 복정로 128
+	setMarker(map, 37.4643326, 127.127291);
+	//    경기도 광주시 태봉로 79
+	setMarker(map, 37.3863814, 127.2295782);
+	//    경기도 성남시 분당구 서현역
+	setMarker(map, 37.3848057, 127.1220245);
+	//    서울시 송파구 송파대로 400
+	setMarker(map, 37.503348,127.1072943);
+	//    서울시 중랑구 망우로 449
+	setMarker(map, 37.600770, 127.101905);
+
+	function setMarker(map, x, y) {
+		var a = new naver.maps.Marker({
+			position: new naver.maps.LatLng(x, y),
+			map: map
+		});
+	}
+</script>
