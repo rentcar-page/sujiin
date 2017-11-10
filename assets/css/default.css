@@ -1,0 +1,299 @@
+@charset "utf-8";
+
+body {
+    font-family: Nanum Gothic !important;    position: relative;
+}
+
+img{
+    vertical-align:top;
+    border: 0px;
+    width: 100%;
+}
+
+h2{
+    font-family: Nanum Gothic !important;
+    font-weight: bold;
+}
+
+footer {
+    color: #FFF;
+    border:0px solid red;
+    background:#183163;
+    color:#fff !important;
+    text-align:center;
+    font-size:13px;
+    font-weight:bold;
+    padding: 30px 00px;
+}
+
+footer a,a:hover{
+    color:#FFF;
+    text-decoration: none;
+}
+
+td{
+    vertical-align: middle !important;
+}
+
+.top-title{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.top-nav-margin{
+    height: 50px;
+}
+
+.stack-nav{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.stack-nav .tel{
+    color:#dd3080;
+    font-size: 21px;
+}
+
+.category .desc{
+    float:left;
+    margin-top: 32px;
+    margin-left: 130px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #888;
+    background-color: #fff;
+}
+
+.car-detail-table td, .car-detail-table tr{
+    text-align: center;
+}
+
+.car-image{
+    vertical-align:middle; width:30%
+}
+
+.car-info{
+    vertical-align:middle;
+    padding-left: 15px;
+    height: 150px;
+}
+
+.car-info > .title {
+    color: #183163;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.car-info > .price{
+    font-size: 15px;
+}
+
+.car-info > .price .number{
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff5500;
+}
+
+.car-image-xs{
+    vertical-align:middle;
+    width:10%;
+    font-size: 10px;
+}
+
+.car-info-xs{
+    vertical-align:middle;
+}
+
+.car-info-xs .title {
+    color: #183163;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.car-info-xs .price{
+    font-size: 13px;
+}
+
+.car-info-xs .price .title{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.car-info-xs .price .number{
+    font-weight: bold;
+    font-size: 15px;
+    color: #ff5500;
+}
+
+.service-info{
+    background:#183163;
+    margin: 3px;
+}
+
+.service-info .title{
+    font-size: 17px;
+    font-weight:bold;
+    color:#fff;
+    height:85px;
+}
+
+.contents{
+    padding-top : 20px;
+    padding-bottom: 50px;
+}
+
+.caution-detail-title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:#444;
+}
+
+.caution-detail-desc{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#888;
+}
+
+.no-padding{
+    padding: 0px !important;
+}
+
+.shadow{
+    box-shadow: 0px 0px 40px 5px gray;
+}
+
+.rounded-list{
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font-size: 20px;
+    padding:  0 0 0 0.8em;
+    margin-bottom: 1em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.rounded-list > li{
+    padding-bottom : 15px;
+}
+
+.rounded-list ul {
+    margin: 0 0 0 0em;
+    list-style-type:circle;
+    font-size: 16px;
+    color:#333;
+}
+
+.rounded-list a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;
+}
+
+.rounded-list a:hover{
+    background: #eee;
+}
+
+.rounded-list a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 1.4em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+
+.non-count{
+    padding: 0;
+}
+
+.non-count a:before{
+    content: none;
+    height: 0em;
+    width: 0em;
+    margin:0;
+    padding: 0;
+}
+
+.non-count a{
+    content: none;
+    padding: .4em .4em .4em 1em;
+}
+
+.menu-glow {
+    overflow: hidden;
+    position: fixed;
+    background: rgba(255,255,255,0.95);
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+    height: 52px;
+    width: 110%;
+    z-index: 1;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.navbar-comapny-phone .title{
+    font-size: 20px;
+    color:#000;
+    font-weight: bold;
+}
+
+.navbar-comapny-phone .phone-number{
+    font-size: 30px;
+    color:#ff3333;
+    font-weight: bold;
+}
+
+.rira-log img{
+    height:40px; padding-top:7px; padding-right:10px; width :auto; float:left
+}
+
+.rira-log .title{
+    font-size: 32px;
+    color:black;
+    font-weight: bold;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+.centered { display:table; margin-left:auto; margin-right:auto;}

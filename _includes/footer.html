@@ -1,13 +1,12 @@
-<footer class="footer">
-	<div class="container">
-		<div class="col-2"><img src="/assets/img/logo.png"></div>
-		<div class="col-10 detail">
-			<div>상호 : 프라임렌터카(주) | 대표자 : 김상수 | 사업자등록번호 : 278-85-00288 | 주소 : 경기도 성남시 수정구 복정로 128</div>
+<footer class="row">
+	<address class="col-md-12">
+		<p>상호 : {{ site.data.pages.company.long_name }} | 대표자 : {{ site.data.pages.company.owner_name }} | 사업자등록번호 : {{ site.data.pages.company.number }} | 주소 : {{ site.data.pages.company.address }}</p>
+		<p>대표번호 : <a href="tel:{{ site.data.pages.tel.main_tel }}">{{ site.data.pages.tel.main_tel }}</a>
+			| H.P <a href="{{ site.data.pages.tel.cell_phone }}"> {{ site.data.pages.tel.cell_phone }}</a>
+								| e-mail : {{ site.data.pages.email }}</p>
 
-			<div>대표번호 : 1800-8068 | H.P 010-5699-3106 | e-mail : rentrira@gmail.com</div>
-
-			<div>성남점, 판교점, 광주점, 송파점, 강동점, 강남/서초점, 동작/관악점, 수원/화성/동탄점, 
-			광진/성동구점, 구로/영등포점, 종로점, 용산/중구점, 서대문/은평/마포점, 과천점</div>
-		</div>
-	</div>
+		<span>성남점, 판교점, 광주점, 송파점, 강동점, 강남/서초점, 동작/관악점, 수원/화성/동탄점,</span>
+		<br>
+		<span>노원점, 광진/성동구점, 구로/영등포점, 종로점, 용산/중구점, 서대문/은평/마포점, 과천점</span>
+	</address>
 </footer>

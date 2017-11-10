@@ -1,4 +1,21 @@
-header_sliders: [slider_01.png, slider_02.png, slider_03.png]
+domain: sujiin.co.kr
+
+company:
+  name: 프라임렌터카
+  short_name: 프라임
+  long_name: 프라임렌터카(주)
+  number: 278-85-00288
+  owner_name: 김상수
+  address:  경기도 성남시 수정구 복정로 128
+
+tel:
+  main_tel: 010-5055-3109
+  cell_phone: 010-5055-3109
+
+email: rentrira@gmail.com
+
+# event: [summer, autumn]
+event: autumn
 
 menus:
   company:
