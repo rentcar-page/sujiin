@@ -6,16 +6,16 @@ company:
   name: 프라임렌터카
   short_name: 프라임
   long_name: 프라임렌터카(주)
-  number: 278-85-00288
+  number: 506-81-46202
   owner_name: 김상수
-  address:  경기도 성남시 수정구 복정로 128
+  address:  서울시 송파구 송파대로 394 4층
 
 tel:
   main_tel: 1800-8068
-  cell_phone: 010-5699-3106
-  numbers: [1800-8068, 070-4134-3106, 010-5699-3106]
+  cell_phone: 010-5055-3109
+  numbers: [1800-8068, 070-4134-3106, 010-5055-3109]
 
-email: rentrira@gmail.com
+email: 5055prime@gmail.com
 
 # event: [spring, summer, autumn, winter]
 event: spring
